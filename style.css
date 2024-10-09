@@ -47,19 +47,31 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*FONTS*/
 
 /*STYLES*/
+
 header{
 	text-align: center;
 	font-size:40px;
-	margin-top: 50px;
+	
 }
 body{
-	display: grid;
-	grid-template-areas: 
-	header header
-	aside main 
-	;
+	display: block;
+	margin:0 150px 0 150px;
+	background-color: white;
+}
+#taco{
+	display: block;
+	margin: 120px;
+}
+#svg{
+	display: block;
+	position:relative;
+	transform: translateY(500px);
+	color: orangered;
+	padding: 1em;
+
+
+	
 }
     /*MEDIA QUERY*/
