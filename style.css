@@ -48,12 +48,18 @@ table {
 	border-spacing: 0;
 }
 /*FONTS*/
-/*STYLES*/
-html{
-    background-color: aquamarine;
-}
-h1{
-    font-size:50px;
-}
 
+/*STYLES*/
+header{
+	text-align: center;
+	font-size:40px;
+	margin-top: 50px;
+}
+body{
+	display: grid;
+	grid-template-areas: 
+	header header
+	aside main 
+	;
+}
     /*MEDIA QUERY*/
