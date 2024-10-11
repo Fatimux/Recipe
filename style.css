@@ -51,8 +51,10 @@ table {
 /*STYLES*/
 
 header{
+	display: block;
 	text-align: center;
 	font-size:40px;
+	transform:translateY(400px);
 	
 }
 body{
@@ -63,6 +65,8 @@ body{
 #taco{
 	display: block;
 	margin: 120px;
+	width:300px;
+	height: 600px;
 }
 #svg{
 	display: block;
@@ -70,6 +74,13 @@ body{
 	transform: translateY(500px);
 	color: orangered;
 	padding: 1em;
+}
+p{
+	display:block;
+	transform: translateX(400px);
+	text-wrap: wrap;
+
+	
 
 
 	
