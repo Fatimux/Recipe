@@ -57,6 +57,24 @@ header{
 	transform:translateY(400px);
 	
 }
+label {
+	display: block;
+	font:1rem 'Fira Sans',sans-serif;
+	
+  }
+  
+  input,
+  label {
+	margin: 0.4rem 0;
+  }
+  
+#search{
+	display: block;
+	position: relative;
+	top:-1950px;
+	color:#EB5428;
+	
+}
 body{
 	display: block;
 	margin:0 150px 0 150px;
@@ -89,20 +107,66 @@ p{
 	block-size: 90px;
 	background-color: #0D0D0D;
 	color: #7ABFBF;
-	transform: translate(0px,50px);
+	transform: translate(0px,80px);
+	text-align: center;
 
 }
 h2{
 	display: block;
-	text-align: center;
+	transform: translate(0px,-2.5px);
+	font-size: 25px;
 }
+h3{
+	display: block;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 25px;
+	padding: 5px;
+	transform: translate(4px,0px)
+}
+
 #ingredients{
 	display: block;
 	transform: translate(0px,80px);
+	font-family: "Montserrat", serif;
+	
 }
-
-ol{
+ol{	
 	display: block;
 	transform: translate(200px,-80px);
+	font-family: "Montserrat", serif;
+	
 }
+
+.side{
+	display:flex;
+	background-color:#7ABFBF;
+
+}
+.images{
+	display: flex;
+	position: relative;
+	top:-1900px;
+	text-align: center;
+	transform: scale(0.5);
+	justify-content: center;
+
+}
+.socialmedia{
+	display: flex;
+	justify-content: right;
+	color:#EB5428
+
+}
+h4{
+	display: flex;
+	transform: translate(0px,-120px);
+	justify-content: center;
+	font-size: 25px;
+}
+footer{
+	display: block;
+	
+}
+
+
 /*MEDIA QUERY*/
