@@ -100,4 +100,9 @@ h2{
 	display: block;
 	transform: translate(0px,80px);
 }
+
+ol{
+	display: block;
+	transform: translate(200px,-80px);
+}
 /*MEDIA QUERY*/
